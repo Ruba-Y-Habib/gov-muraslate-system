@@ -1,0 +1,9 @@
+الخطوة 1/3: الاتصال بـ SQL Server...
+الخطوة 2/3: قاعدة البيانات MurasalatDB موجودة مسبقاً.
+
+فشل الإعداد: Login failed for user 'sa'.
+
+تحقق من:
+1. أن خدمة SQL Server تعمل (SQL Server Configuration Manager)
+2. بيانات الاتصال في ملف .env (DB_SERVER, DB_USER, DB_PASSWORD)
+3. أن مصادقة SQL Server مفعلة (Mixed Mode) في SSMS
